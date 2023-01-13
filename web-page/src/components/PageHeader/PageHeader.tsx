@@ -13,7 +13,11 @@ export const PageHeader: React.FC = () => {
         <a href="/#experiences">Experiences</a>
         <a href="/#skills">Skills</a>
         <a href="/#activity">Activity</a>
-        <a href="https://github.com/MarcosVini9999" target="_blank">
+        <a
+          href="https://github.com/MarcosVini9999"
+          target="_blank"
+          rel="noreferrer"
+        >
           Projects
         </a>
       </NavigationBar>
