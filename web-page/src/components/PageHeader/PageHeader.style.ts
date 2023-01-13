@@ -2,6 +2,7 @@ import { styled } from "@mui/system";
 import { Box } from "@mui/material";
 
 export const HeaderContainer = styled("header")({
+  backgroundColor: "rgba(138, 47, 46, 0.1)",
   top: "0",
   position: "relative",
   display: "flex",
