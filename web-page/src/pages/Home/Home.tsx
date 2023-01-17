@@ -9,7 +9,8 @@ import {
 } from "./Home.style";
 import sample from "assets/sample.webp";
 import { CTAButton } from "components/CTAButton/CTAButton";
-import { ActionCard } from "components/Card/ActionCard";
+import { MediaCard } from "components/MediaCard/MediaCard";
+import { Carousel } from "components/Carousel/Carousel";
 
 export const Home: React.FC = () => {
   return (
@@ -68,42 +69,42 @@ export const Home: React.FC = () => {
       <SkillsWrapper id="skills">
         <h1>Skills</h1>
         <div id="skillsContainer">
-          <ActionCard
+          <MediaCard
             image={sample}
             title={"Title"}
             description={
               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ut amet ab laudantium iste natus! Quia quaerat maiores provident non quam quo eius illo, maxime ipsa laboriosam natus a eveniet!"
             }
           />
-          <ActionCard
+          <MediaCard
             image={sample}
             title={"Title"}
             description={
               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ut amet ab laudantium iste natus! Quia quaerat maiores provident non quam quo eius illo, maxime ipsa laboriosam natus a eveniet!"
             }
           />
-          <ActionCard
+          <MediaCard
             image={sample}
             title={"Title"}
             description={
               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ut amet ab laudantium iste natus! Quia quaerat maiores provident non quam quo eius illo, maxime ipsa laboriosam natus a eveniet!"
             }
           />
-          <ActionCard
+          <MediaCard
             image={sample}
             title={"Title"}
             description={
               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ut amet ab laudantium iste natus! Quia quaerat maiores provident non quam quo eius illo, maxime ipsa laboriosam natus a eveniet!"
             }
           />
-          <ActionCard
+          <MediaCard
             image={sample}
             title={"Title"}
             description={
               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ut amet ab laudantium iste natus! Quia quaerat maiores provident non quam quo eius illo, maxime ipsa laboriosam natus a eveniet!"
             }
           />
-          <ActionCard
+          <MediaCard
             image={sample}
             title={"Title"}
             description={
@@ -115,35 +116,7 @@ export const Home: React.FC = () => {
 
       <ActivityWrapper id="activity">
         <h1>Activity</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-          recusandae consequuntur rerum odio, nobis nam quas odit sit eos saepe
-          doloremque natus quibusdam error nulla perferendis impedit rem? Odio,
-          omnis? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Tempore recusandae consequuntur rerum odio, nobis nam quas odit sit
-          eos saepe doloremque natus quibusdam error nulla perferendis impedit
-          rem? Odio, omnis? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Tempore recusandae consequuntur rerum odio, nobis nam quas odit
-          sit eos saepe doloremque natus quibusdam error nulla perferendis
-          impedit rem? Odio, omnis? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Tempore recusandae consequuntur rerum odio, nobis
-          nam quas odit sit eos saepe doloremque natus quibusdam error nulla
-          perferendis impedit rem? Odio, omnis? impedit rem? Odio, omnis? Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Tempore recusandae
-          consequuntur rerum odio, nobis nam quas odit sit eos saepe doloremque
-          natus quibusdam error nulla perferendis impedit rem? Odio, omnis?
-          impedit rem? Odio, omnis? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Tempore recusandae consequuntur rerum odio, nobis
-          nam quas odit sit eos saepe doloremque natus quibusdam error nulla
-          perferendis impedit rem? Odio, omnis? impedit rem? Odio, omnis? Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Tempore recusandae
-          consequuntur rerum odio, nobis nam quas odit sit eos saepe doloremque
-          natus quibusdam error nulla perferendis impedit rem? Odio, omnis?
-          impedit rem? Odio, omnis? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Tempore recusandae consequuntur rerum odio, nobis
-          nam quas odit sit eos saepe doloremque natus quibusdam error nulla
-          perferendis impedit rem? Odio, omnis?
-        </p>
+        <Carousel />
       </ActivityWrapper>
 
       <BackToTopButton />
