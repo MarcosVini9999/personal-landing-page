@@ -30,12 +30,32 @@ export const ExperienceWrapper = styled("section")({
   justifyContent: "center",
   paddingInline: "50px",
   height: "100vh",
+  "& h1": {
+    marginTop: "0",
+  },
 });
 
 export const SkillsWrapper = styled("section")({
-  height: "100vh",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  padding: "50px",
+  flexDirection: "column",
+  "& h1": {
+    marginTop: "0",
+  },
+  "& #skillsContainer": {
+    maxWidth: "90%",
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(345px, 1fr))",
+    gridGap: "1rem",
+    justifyItems: "center",
+  },
 });
 
 export const ActivityWrapper = styled("section")({
+  "& h1": {
+    marginTop: "0",
+  },
   height: "100vh",
 });
