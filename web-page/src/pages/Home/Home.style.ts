@@ -36,10 +36,12 @@ export const ExperienceWrapper = styled("section")({
 });
 
 export const SkillsWrapper = styled("section")({
+  minHeight: "calc(100vh - 100px)",
+  paddingBlock: "50px",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  padding: "50px",
+  paddingInline: "50px",
   flexDirection: "column",
   "& h1": {
     marginTop: "0",
