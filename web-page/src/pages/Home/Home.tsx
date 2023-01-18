@@ -116,7 +116,7 @@ export const Home: React.FC = () => {
 
       <ActivityWrapper id="activity">
         <h1>Activity</h1>
-        <Carousel />
+        <Carousel items={[sample, sample, sample, sample, sample]} />
       </ActivityWrapper>
 
       <BackToTopButton />

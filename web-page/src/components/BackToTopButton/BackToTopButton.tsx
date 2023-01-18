@@ -8,8 +8,6 @@ export const BackToTopButton: React.FC = () => {
   window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
 
-    console.log(scrollY);
-
     if (scrollY > 50) {
       backToTopButton?.classList.remove("HiddenbackToTopButton");
     } else {

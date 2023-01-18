@@ -54,8 +54,12 @@ export const SkillsWrapper = styled("section")({
 });
 
 export const ActivityWrapper = styled("section")({
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
   "& h1": {
     marginTop: "0",
+    marginInline: "auto",
   },
   height: "100vh",
 });
