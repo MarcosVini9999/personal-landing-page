@@ -21,8 +21,38 @@ export const HeaderContainer = styled("header")({
 });
 
 export const NavigationBar = styled(Box)({
-  display: "flex",
-  "& a": {
-    marginInline: "30px",
+  "& #btn-mobile": {
+    display: "none",
+  },
+  "& #menu": {
+    display: "flex",
+    listStyle: "none",
+    margin: "0px",
+    "& a": {
+      display: "block",
+      padding: "10px",
+      marginInline: "30px",
+    },
+    "& a:hover": {
+      backgroundColor: "rgba(0, 0, 0, .05)",
+    },
+  },
+  "@media (max-width: 900px)": {
+    "& #btn-mobile": {
+      display: "flex",
+    },
+    "& #menu": {
+      display: "none",
+      position: "absolute",
+      width: "100%",
+      top: "86px",
+      right: "0px",
+      backgroundColor: "#8a2f2e",
+      height: "calc(100vh - 86px)",
+      zIndex: "1000",
+    },
+    "& .active": {
+      display: "block !important",
+    },
   },
 });

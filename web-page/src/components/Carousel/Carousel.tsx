@@ -23,8 +23,6 @@ export const Carousel: React.FC<CarouselProps> = ({ items }) => {
     }
 
     setCarouselWidth(scrollWidth - offsetWidth);
-
-    console.log(carousel.current?.scrollWidth);
   }, []);
 
   return (

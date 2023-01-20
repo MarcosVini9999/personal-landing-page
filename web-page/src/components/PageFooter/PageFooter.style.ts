@@ -6,13 +6,11 @@ export const FooterContainer = styled("footer")({
   position: "relative",
   backgroundColor: "rgba(138, 47, 46, 1)",
   display: "flex",
+  flexWrap: "wrap",
   justifyContent: "space-around",
   alignItems: "center",
   flexDirection: "row",
   paddingBlock: "40px",
-  "& h2": {
-    margin: "0",
-  },
   "& a": {
     color: "inherit",
   },
