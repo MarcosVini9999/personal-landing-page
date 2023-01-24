@@ -3,10 +3,10 @@ import { Box } from "@mui/material";
 
 export const HomeContainer = styled(Box)({
   "& section:nth-child(2n+1)": {
-    backgroundColor: "rgba(31, 1, 1, 0.9)",
+    backgroundColor: "rgba(31, 1, 1, 0.8)",
   },
   "& section:nth-child(2n)": {
-    backgroundColor: "rgba(31, 1, 1, 0.8)",
+    backgroundColor: "rgba(31, 1, 1, 0.7)",
   },
 });
 
