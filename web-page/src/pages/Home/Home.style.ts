@@ -22,6 +22,10 @@ export const HomeWrapper = styled("section")({
   "& > div": {
     width: "50%",
   },
+
+  "& > img": {
+    minWidth: "50%",
+  },
 });
 
 export const ExperienceWrapper = styled("section")({
@@ -46,7 +50,7 @@ export const SkillsWrapper = styled("section")({
     marginTop: "0",
   },
   "& #skillsContainer": {
-    maxWidth: "90%",
+    maxWidth: "100%",
     display: "grid",
     gridTemplateColumns: "repeat(auto-fit, minmax(345px, 1fr))",
     gridGap: "1rem",
